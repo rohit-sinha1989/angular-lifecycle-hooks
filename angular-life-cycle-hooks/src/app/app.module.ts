@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppLifecycleHooksComponent } from './component/app-lifecycle-hooks/app-lifecycle-hooks.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppLifecycleHooksComponent
   ],
   imports: [
     BrowserModule,
